@@ -1,0 +1,157 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;700&display=swap');
+
+  *{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+/* nav design starts here */
+nav{
+  background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  min-height: 100px;
+  margin: 0 auto;
+  }
+
+    
+.logo-container{
+  display: flex;
+  width: 50%;
+  
+}
+.logo-container img{
+  width: 50px;
+  margin-right: 20px;
+}
+.logo-container p{
+  color: #0B0223;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  
+}
+.G-section{
+  color: #FF42A5;
+  }
+.nav-items-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items-container a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #3C354F;;
+}
+.nav-items-container .follow-btn{
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+/* nav design ends here */
+/* banner design starts here */
+.banner-container{
+  
+  margin: 50px auto 0;
+  max-width: 1420px;
+  min-height: 50px;
+  display: flex;
+  background-color:fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  padding: auto;
+   
+}
+.banner-text{
+  width: 50%;
+  text-align: center;
+}
+.banner-img{
+  width: 50%;
+}
+.banner-img img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.banner-text h1{
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-text h2{
+  color: #0B0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  
+  
+
+}
+.banner-text p
+  color: #534C64;
+  text-align: center;
+  font-size: 20px;
+  
+  
+ 
+.banner-btn1{
+  display: inline-flex;
+  padding: 20px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background:  #FF42A5 ;
+  border: none;
+
+
+}
+
+.banner-btn2{
+display: inline-flex;
+padding: 20px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+}
+/* banner design ends here */
+
+
+/*gamer  design starts here */
+
+/*gamer  design starts here */
+
+
+/*footer  design starts here */
+footer{
+  border: 2px solid red;
+  width: 100%;
+  height: 300px;
+  
+}
+.logo-container-footer{
+  
+  
+}
+.footer-items
+.footer-icons
+.footer-conditions
+.footer p{}
